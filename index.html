@@ -10,11 +10,12 @@
 	<meta name="author" content="" />
 
   <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
+	<meta property="og:title" content="about me"/>
+	<meta property="og:image" content="https://mild2540mike.github.io/yanaranop.github.io/path/image.jpg"/>
+	<meta property="og:type" content="website" />
 	<meta property="og:url" content=""/>
 	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
+	<meta property="og:description" content="Your description"/>
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
@@ -51,14 +52,24 @@
 
 	</head>
 	<body>
+		<style>
+			body {
+			  background-color: #2E2F3B;
+			  color: whitesmoke;
+			}
+			h1, h2, h3, h4, h5 {
+			color: white;
+			}
+			
+		</style>
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="background-color: cadetblue;">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Yanaranop Naulrahaeng</a></h1>
-				<span class="position"><a href="#">Web Developer</a> in Bangkok</span>
+				<span class="position"><a href="#" style="color: rgb(0 0 0 / 50%);">Web Developer</a> in Bangkok</span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
@@ -80,9 +91,9 @@
 				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | by Yanaranop.Nau
 				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="https://web.facebook.com/yanaranop.mike/"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="https://www.instagram.com/mike.yanaranop/"><i class="icon-instagram"></i></a></li>
 					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
 				</ul>
 			</div>
@@ -176,8 +187,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 									<div class="hire">
-										<h2>I am happy to know you <br>that 6+ projects done sucessfully!</h2>
-										<a href="#" data-nav-section="contact" class="btn-hire">Hire me</a>
+										<h2 style="color: rgb(0, 0, 0);">I am happy to know you <br>that 6+ projects done sucessfully!</h2>
+										<a href="#" class="btn-hire">Hire me</a>
 									</div>
 								</div>
 							</div>
@@ -186,8 +197,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-
-			
 			<section class="colorlib-services" data-section="services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -383,7 +392,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<h2 class="colorlib-heading animate-box">Education</h2>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" style="color: black;">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<div class="fancy-collapse-panel">
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -481,7 +490,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" style="color:black;">
 				         <div class="timeline-centered">
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
@@ -568,10 +577,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+							<p class="work-menu"><span><a style="color: #9999;" class="active">Graphic Design</a></span> <span><a style="color: #9999;" >Web Developer</a></span> <span><a style="color: #9999;" >Software</a></span> <span><a style="color: #9999;" >Apps</a></span></p>
 						</div>
 					</div>
 					<div class="row">
+						<!-- fuction facebook share -->
+						<div id="fb-root"></div>
+						<script async defer crossorigin="anonymous" src="https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v8.0&appId=3091116037568783&autoLogAppEvents=1" nonce="9Oh8pusv"></script>
+						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="project" style="background-image: url(images/img-1.jpg);">
 								<div class="desc">
@@ -579,9 +592,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h3><a href="work.html">Work 01</a></h3>
 										<span>Website</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a target="_blank" 
+													 href="https://www.facebook.com/sharer/sharer.php?u=https://mild2540mike.github.io/yanaranop.github.io/" 
+													 class="fb-xfbml-parse-ignore" 
+													 data-href="https://mild2540mike.github.io/yanaranop.github.io/" 
+													 data-layout="button_count" 
+													 data-size="small">
+													 <i class="icon-share3"></i>
+													</a>
+											</span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a id="demo"><i class="icon-heart"></i> 49</a></span>
+												<!-- fuction heart -->
+												<script>
+													document.getElementById("demo").addEventListener("click", myFunction);
+
+													function myFunction() {
+													document.getElementById("demo").innerHTML =  "<i class='icon-heart'>" + "</i>" + " 50";
+														}
+												</script>
 										</p>
 									</div>
 								</div>
@@ -594,10 +623,26 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h3><a href="work.html">Work 02</a></h3>
 										<span>Animation</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
+											<span><a target="_blank" 
+												href="https://www.facebook.com/sharer/sharer.php?u=https://mild2540mike.github.io/yanaranop.github.io/" 
+												class="fb-xfbml-parse-ignore" 
+												data-href="https://mild2540mike.github.io/yanaranop.github.io/" 
+												data-layout="button_count" 
+												data-size="small">
+												<i class="icon-share3"></i>
+											   </a>
+									   </span>
+									   <span><a href="#"><i class="icon-eye"></i> 63</a></span>
+									   <span><a id="demo1"><i class="icon-heart"></i> 35</a></span>
+									   <!-- fuction heart -->
+									   <script>
+										   document.getElementById("demo1").addEventListener("click", myFunction);
+
+										   function myFunction() {
+										   document.getElementById("demo1").innerHTML =  "<i class='icon-heart'>" + "</i>" + " 36";
+											   }
+									   </script>
+							   </p>
 									</div>
 								</div>
 							</div>
@@ -609,10 +654,26 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h3><a href="work.html">Work 03</a></h3>
 										<span>Illustration</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
+											<span><a target="_blank" 
+												href="https://www.facebook.com/sharer/sharer.php?u=https://mild2540mike.github.io/yanaranop.github.io/" 
+												class="fb-xfbml-parse-ignore" 
+												data-href="https://mild2540mike.github.io/yanaranop.github.io/" 
+												data-layout="button_count" 
+												data-size="small">
+												<i class="icon-share3"></i>
+											   </a>
+									   </span>
+									   <span><a href="#"><i class="icon-eye"></i> 142</a></span>
+									   <span><a id="demo2"><i class="icon-heart"></i> 87</a></span>
+									   <!-- fuction heart -->
+									   <script>
+										   document.getElementById("demo2").addEventListener("click", myFunction);
+
+										   function myFunction() {
+										   document.getElementById("demo2").innerHTML =  "<i class='icon-heart'>" + "</i>" + " 88";
+											   }
+									   </script>
+							   </p>
 									</div>
 								</div>
 							</div>
@@ -624,9 +685,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h3><a href="work.html">Work 04</a></h3>
 										<span>Application</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a target="_blank" 
+												href="https://www.facebook.com/sharer/sharer.php?u=https://mild2540mike.github.io/yanaranop.github.io/" 
+												class="fb-xfbml-parse-ignore" 
+												data-href="https://mild2540mike.github.io/yanaranop.github.io/" 
+												data-layout="button_count" 
+												data-size="small">
+												<i class="icon-share3"></i>
+											   </a>
+									   </span>
+									   <span><a href="#"><i class="icon-eye"></i> 203</a></span>
+											<span><a id="demo3"><i class="icon-heart"></i> 100</a></span>
+												<!-- fuction heart -->
+												<script>
+													document.getElementById("demo3").addEventListener("click", myFunction);
+
+													function myFunction() {
+													document.getElementById("demo3").innerHTML =  "<i class='icon-heart'>" + "</i>" + " 101";
+														}
+												</script>
 										</p>
 									</div>
 								</div>
@@ -639,9 +716,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h3><a href="work.html">Work 05</a></h3>
 										<span>Graphic, Logo</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a target="_blank" 
+												href="https://www.facebook.com/sharer/sharer.php?u=https://mild2540mike.github.io/yanaranop.github.io/" 
+												class="fb-xfbml-parse-ignore" 
+												data-href="https://mild2540mike.github.io/yanaranop.github.io/" 
+												data-layout="button_count" 
+												data-size="small">
+												<i class="icon-share3"></i>
+											   </a>
+									   </span>
+									   <span><a href="#"><i class="icon-eye"></i> 88</a></span>
+											<span><a id="demo4"><i class="icon-heart"></i> 42</a></span>
+												<!-- fuction heart -->
+												<script>
+													document.getElementById("demo4").addEventListener("click", myFunction);
+
+													function myFunction() {
+													document.getElementById("demo4").innerHTML =  "<i class='icon-heart'>" + "</i>" + " 43";
+														}
+												</script>
 										</p>
 									</div>
 								</div>
@@ -654,9 +747,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h3><a href="work.html">Work 06</a></h3>
 										<span>Web Design</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a target="_blank" 
+												href="https://www.facebook.com/sharer/sharer.php?u=https://mild2540mike.github.io/yanaranop.github.io/" 
+												class="fb-xfbml-parse-ignore" 
+												data-href="https://mild2540mike.github.io/yanaranop.github.io/" 
+												data-layout="button_count" 
+												data-size="small">
+												<i class="icon-share3"></i>
+											   </a>
+									   </span>
+									   <span><a href="#"><i class="icon-eye"></i> 432</a></span>
+											<span><a id="demo5"><i class="icon-heart"></i> 214</a></span>
+												<!-- fuction heart -->
+												<script>
+													document.getElementById("demo5").addEventListener("click", myFunction);
+
+													function myFunction() {
+													document.getElementById("demo5").innerHTML =  "<i class='icon-heart'>" + "</i>" + " 215";
+														}
+												</script>
 										</p>
 									</div>
 								</div>
@@ -679,11 +788,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<h2 class="colorlib-heading">Recent Blog</h2>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" style="color:black;">
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
+								<div class="desc" style="margin-left: 5px">
 									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html">Renovating National Gallery</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -693,7 +802,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
+								<div class="desc" style="margin-left: 5px">
 									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -703,7 +812,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
+								<div class="desc" style="margin-left: 5px">
 									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html">Make website from scratch</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -734,7 +843,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-globe-outline"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
+									<p><a href="#">Yanaranop2540mike@gmail.com</a></p>
 								</div>
 							</div>
 
@@ -743,7 +852,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-map"></i>
 								</div>
 								<div class="colorlib-text">
-									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+									<p>162 Joho Ampur Muang Nakhonratchasima 30310</p>
 								</div>
 							</div>
 
@@ -752,7 +861,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-phone"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
+									<p><a href="tel://">+669 2539 6670</a></p>
 								</div>
 							</div>
 						</div>
@@ -761,19 +870,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 									<form action="">
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
+											<input type="text" class="form-control" placeholder="Name" disabled="disabled" required>
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
+											<input type="text" class="form-control" placeholder="Email" disabled="disabled" required>
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
+											<input type="text" class="form-control" placeholder="Subject" disabled="disabled" required>
 										</div>
 										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message" disabled="disabled" required></textarea>
 										</div>
 										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message" disabled="disabled">
 										</div>
 									</form>
 								</div>
