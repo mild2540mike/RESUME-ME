@@ -1426,3 +1426,9 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  @media screen and (max-width: 991px) {
+    .services h4 {
+      padding-left: 40% !important;
+    }
+  }
